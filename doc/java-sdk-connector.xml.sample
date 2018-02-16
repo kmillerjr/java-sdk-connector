@@ -1,0 +1,9 @@
+<!-- BEGIN_INCLUDE(java-sdk:greet) -->
+    <java-sdk:greet config-ref="" friend="#[map-payload:friend]" />
+<!-- END_INCLUDE(java-sdk:greet) -->
+<!-- BEGIN_INCLUDE(java-sdk:query-processor) -->
+    <java-sdk:query-processor config-ref="" query="SELECT fieldName FROM MY_TABLE" />
+<!-- END_INCLUDE(java-sdk:query-processor) -->
+<!-- BEGIN_INCLUDE(java-sdk:add-entity) -->
+    <java-sdk:add-entity config-ref="" key="id1"/>
+<!-- END_INCLUDE(java-sdk:add-entity) -->
